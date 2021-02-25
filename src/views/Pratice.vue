@@ -1,12 +1,14 @@
 <template>
   <div class="pratice">
-    <h1>表單</h1>   
+ 
+<div id ="index">
      <PraticeText/>
      
 
-     
+  </div>
   </div>
 </template>
+
 <script>
 // @ is an alias to /src
 import PraticeText from '@/components/PraticeText.vue'
@@ -19,3 +21,17 @@ export default {
 }
 
 </script>
+
+
+<style scoped lang="scss">
+   
+   #index{
+     position: relative;
+     width: auto;
+     height: auto;
+
+  
+  
+}
+
+</style>
